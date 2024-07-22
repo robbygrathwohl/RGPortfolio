@@ -118,7 +118,7 @@
 
   --bs-body-color: #d3d3d3;
   --bs-body-color-rgb: 236, 238, 239;
-  --bs-body-bg: #212529;
+  --bs-body-bg: #1c232b;
   --bs-body-bg-rgb: 33, 37, 41;
   --bs-emphasis-color: #fff;
   --bs-emphasis-color-rgb: 255, 255, 255;
@@ -8270,7 +8270,7 @@ textarea.form-control-lg {
 
 .bg-body {
   --bs-bg-opacity: 1;
-  background-color: rgba(var(--bs-body-bg-rgb), var(--bs-bg-opacity)) !important;
+  background-color: rgba(var(--bs-body-bg), var(--bs-bg-opacity)) !important;
 }
 
 .bg-transparent {
@@ -11041,10 +11041,10 @@ section.resume-section {
   align-items: center;
   padding-left: 1rem;
   padding-right: 1rem;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   max-width: 75rem;
-  background-color: #202529;
+  background-color: var(--bs-body-bg);
 }
 section.resume-section .resume-section-content {
   width: 100%;
